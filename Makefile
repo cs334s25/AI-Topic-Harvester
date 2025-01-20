@@ -19,6 +19,10 @@ run: create-env build
 stop:
 	docker stop $$(docker ps -q --filter ancestor=openai-integration-app)
 
+# Run flake8 linter
+lint:
+    flake8 .
+
 # Clean up the .env file
 clean:
 	rm -f .env
