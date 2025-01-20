@@ -25,10 +25,9 @@ This project extracts text from PDF files and uses OpenAI's GPT-4 to parse the t
     cd ai-topic-harvester
     ```
 
-2. **Build and run the Docker container using Make:**
+2. **Run the Docker container using Make:**
 
     ```sh
-    make build
     make run
     ```
 
